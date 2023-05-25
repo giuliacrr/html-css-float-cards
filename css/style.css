@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  width:100%;
+  margin:auto;
+}
+
+.clearfix {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+/*Header*/
+
+header {
+  text-align: center;
+}
+
+/*Main*/
+
+.container {
+  color:white;
+}
+
+.divf {
+  float:left;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.2);
+  margin:15px;
+  width:370px;
+  background-color: rgb(15, 14, 23);
+}
+
+img {
+  width:100px;
+  float: left;
+}
+
+/*Profile boxes*/
+
+.teammate {
+  line-height:25px;
+  display: inline-block;
+  padding-left:20px;
+  padding-top:12px;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: bolder
+}
+
+.info {
+  font-size:14px;
+
+}
+
+a {
+  color:rgb(101, 208, 255);
+}
+
+a:hover {
+  cursor: pointer;
+  color:rgb(169, 233, 255);
+  font-weight: bold;
+}
+
+
+
+
