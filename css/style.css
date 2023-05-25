@@ -8,7 +8,7 @@
 body {
   max-width: 1200px;
   width:100%;
-  margin:auto;
+  margin: auto;
 }
 
 .clearfix {
@@ -19,14 +19,27 @@ body {
 
 /*Header*/
 
+h1 {
+  color:rgb(228, 49, 112);
+  margin-top:30px;
+}
+
+
+
 header {
   text-align: center;
 }
 
 /*Main*/
 
+.parag {
+  text-align:center;
+  margin-top: 30px;
+}
+
 .container {
   color:white;
+  margin-top:30px;
 }
 
 .divf {
@@ -48,7 +61,8 @@ img {
   line-height:25px;
   display: inline-block;
   padding-left:20px;
-  padding-top:12px;
+  padding-top:10px;
+  
 }
 
 .name {
